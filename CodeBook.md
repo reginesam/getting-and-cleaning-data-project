@@ -5,7 +5,7 @@ This CodeBook will describes the variables, data, and transformation or works pe
 The source data set represents data collected from the accelerometers from the Samsung Galaxy S smartphone. <br/>
 (Refer: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)<br/>
 <br/>
-<U>Original source files:</U><br/>
+Original source files:<br/>
 features_info.txt: Shows information about the variables used on the feature vector.<br/>
 features.txt: List of all features.<br/>
 activity_labels.txt: Links the class labels with their activity name.<br/>
@@ -14,17 +14,16 @@ train/y_train.txt: Training labels.<br/>
 test/X_test.txt: Test set.<br/>
 test/y_test.txt: Test labels.<br/>
 <br/>
-<br/>
 <b>The Variables</b><br/>
-1.	The activity labels consist of,<br/>
+1.	The subjects who carried out the experiment are represented as a number from 1 to 30.<br/>
+<br/>
+2.	The activity labels consist of,<br/>
 	- WALKING<br/>
 	- WALKING_UPSTAIRS<br/>
 	- WALKING_DOWNSTAIRS<br/>
 	- SITTING<br/>
 	- STANDING<br/>
 	- LAYING<br/>
-<br/>
-2.	The subjects who carried out the experiment are represented as a number from 1 to 30.<br/>
 <br/>
 3.	For each measurement, mean, stddex, mean freq were calculated.<br/>
 tBodyAccMeanX <br/>
